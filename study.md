@@ -39,6 +39,12 @@ As it makes sense to you please write the following in JSON format:
 
 ```json
 <!-- your answer here -->
+{"Jason_belongigs" : {
+  "cat": "Mr.Kitty",
+  "roomates": ["Dave", "Miller"],
+  "favorite sports": ["Red Sox", "Patriots", "Bruins"],
+  "home addresss": ["123 Fake Street", "2 Muchinfo Road"]}
+}
 ```
 
 ...I forgot, my roomate Dave has two goldfish, one named Bob (he's red) and the
@@ -47,6 +53,17 @@ already wrote and include the information about Dave's fish.
 
 ```json
 <!-- your answer here -->
+{"Jason_belongigs" : {
+  "cat": "Mr.Kitty",
+  "roomates": ["Dave", "Miller"],
+  "favorite sports": ["Red Sox", "Patriots", "Bruins"],
+  "home addresss": ["123 Fake Street", "2 Muchinfo Road"]}
+},
+{"Dave_GoldFish":{
+  "Bob": "Red",
+  "Mr.MagicNibbles": "Yellow",
+  "fishBites" : }
+}
 ```
 
 ## JSON Methods
@@ -54,7 +71,7 @@ already wrote and include the information about Dave's fish.
 Using the JSON your wrote above, can you write a method on the JSON?
 
 ```json
-<!-- your answer here -->
+Nope. It is just raw data, therefore no behaviors can be applied to it.
 ```
 
 ## JSON Comments
@@ -62,5 +79,5 @@ Using the JSON your wrote above, can you write a method on the JSON?
 Using the JSON your wrote above, can you write a comment in the JSON?
 
 ```json
-<!-- your answer here -->
+No you cannot comment in JSON, it will cause a slew of errors which will be immensely hard to debug. And will cause everyone a headache.
 ```
